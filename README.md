@@ -9,6 +9,11 @@ The model is trained to recognize the following five classes:
 *   **Jasmine**
 *   **Karacadag**
 
+## 💻 Tech Stack
+*   **Deep Learning:** TensorFlow & Keras
+*   **Frontend/Deployment:** Streamlit
+*   **Data Processing:** NumPy, Pillow (PIL), Split-folders
+
 ## 📊 Dataset
 The model was trained on the **[Murat Koklu Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)**. It contains tens of thousands of individual rice grain images categorized into the five classes mentioned above. The large dataset enables the CNN to accurately learn the distinct shape, texture, and size features of each variety.
 
@@ -20,11 +25,6 @@ The model was trained using TensorFlow and Keras, following a structured data pi
 *   **Preprocessing & Augmentation:** TensorFlow's `ImageDataGenerator` was utilized to load the images efficiently in batches. During processing, the images were resized to 160x160 pixels and normalized (pixel values scaled between 0 and 1 by dividing by 255.0).
 *   **Architecture:** A Convolutional Neural Network (CNN) was trained to recognize the distinct textures and shapes of the grains. 
 *   **Export:** The highly accurate trained model was saved as `Rice_image_classification_cnn_model.h5` for deployment.
-
-## 💻 Tech Stack
-*   **Deep Learning:** TensorFlow & Keras
-*   **Frontend/Deployment:** Streamlit
-*   **Data Processing:** NumPy, Pillow (PIL), Split-folders
 
 ## 🚀 Live Demo
 You can try the model without installing anything by visiting the deployed Streamlit application:
