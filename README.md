@@ -29,5 +29,5 @@ The model was trained using TensorFlow and Keras, following a structured data pi
 ## 🚀 Live Demo
 You can try the model without installing anything by visiting the deployed Streamlit application:
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://rice-image-classification-efpsawblvhhhxu5entsjq8.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://rice-image-classification-ktdqknmrv8hxnbhrqvb5gg.streamlit.app/)
 
